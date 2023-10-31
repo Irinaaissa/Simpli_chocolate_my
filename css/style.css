@@ -1,4 +1,14 @@
 @media screen and (max-width: 767px){
+    .menu {
+        display: none;
+    }
+    .social-list {
+        display: none;
+    }
+    .page-header {
+        padding-top: 20px;
+        padding-bottom: 14px;
+    }
 .logotype{
     display: flex;
     align-items: center;
@@ -20,5 +30,11 @@
         padding: 0;
         line-height: 0;
         stroke: var(--primary-color);
+    }
+    .page-header-container {
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
