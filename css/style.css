@@ -1,4 +1,13 @@
-
+.logotype{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
     .logotype-icon {
         margin-left: 4px;
         fill: #FCF1E0;
